@@ -1,0 +1,47 @@
+/* General Styling */
+.items-available {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Title Styling */
+  .items-title {
+    font-size: 32px;
+    color: #ff9900; /* Orange */
+    margin-bottom: 20px;
+  }
+  
+  /* Description Styling */
+  .items-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  /* Button Styling */
+  .items-button {
+    padding: 12px 24px;
+    background-color: #ff9900; /* Orange background */
+    color: #121212; /* Dark text */
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .items-button:hover {
+    background-color: #000000;
+    color: #ff9900; /* Orange text */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff9900, 0 0 20px rgba(255, 153, 0, 0.5);
+  }
+  

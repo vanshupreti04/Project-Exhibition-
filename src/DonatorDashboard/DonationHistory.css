@@ -1,0 +1,28 @@
+.history-section {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .history-section h2 {
+    font-size: 24px;
+    color: #00FF00;
+    margin-bottom: 20px;
+  }
+  
+  .history-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .history-section li {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .history-section p {
+    margin: 5px 0;
+  }
+  

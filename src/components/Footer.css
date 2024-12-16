@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 18px 20px; 
+    color: #ffffff;
+    font-size: 14px; 
+    background-color: transparent; 
+    margin-top: 25px
+}
+.footer-left {
+    flex: 1; 
+    margin-left: 45px;
+}
+.footer-right {
+    display: flex; 
+    gap: 35px;
+    margin-right: 45px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    gap: 25px;
+    color: #ffffff; 
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+.social-icons:hover {
+    color: #00ff00;
+    transform: scale(1.2);
+}
